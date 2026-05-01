@@ -35,6 +35,17 @@ Underlying invention protected by Finnish Utility Model No. 13913.
 |------|-------------|
 | `clf_concept_spec_v1.md` | Single concept format specification v0.9 |
 | `Concept_library_wp.pdf` | White paper — full theoretical foundation |
+| `C-002.electric_arc/` | Example concept — electric arc (phenomenon) |
+| `C-003.partial_discharge/` | Example concept — partial discharge (phenomenon) |
+| `C-004.abnormal_vibration/` | Example concept — abnormal vibration (phenomenon) |
+
+## Example Concepts
+
+Three example concepts are included to demonstrate the CLF format across different industrial domains.
+Each concept is expressed as a folder structure representing the contents of a `.clf` archive.
+
+The examples cover phenomena relevant to electrical insulation, high-voltage equipment, and rotating machinery —
+domains where precise, system-independent concept definitions have direct practical value.
 
 ## White Paper
 
