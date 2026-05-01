@@ -1,0 +1,32 @@
+{
+  "modality": "signal",
+  "applicability": "very_high",
+  "applicability_note": "Abnormal vibration has primary signal character in the mechanical vibration domain.",
+
+  "signal_domains": [
+    {
+      "domain": "vibration_acceleration",
+      "unit": "m/s2 or g",
+      "morphology": "elevated_amplitude_irregular",
+      "temporal_scale": "milliseconds_to_sustained",
+      "characteristic_pattern": "elevated broadband or tonal amplitude with irregular envelope"
+    },
+    {
+      "domain": "vibration_velocity",
+      "unit": "mm/s",
+      "morphology": "elevated_sustained_or_intermittent",
+      "temporal_scale": "milliseconds_to_sustained",
+      "characteristic_pattern": "sustained elevated velocity amplitude"
+    },
+    {
+      "domain": "vibration_spectrum",
+      "unit": "Hz",
+      "morphology": "atypical_spectral_peaks_or_broadband_floor",
+      "temporal_scale": "stationary_or_slowly_varying",
+      "characteristic_pattern": "spectral peaks or elevated broadband floor not present in normal operation"
+    }
+  ],
+
+  "stationarity": "non-stationary",
+  "periodicity": "variable"
+}

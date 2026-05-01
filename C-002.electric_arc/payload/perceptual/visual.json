@@ -1,0 +1,36 @@
+{
+  "modality": "visual",
+  "applicability": "very_high",
+  "applicability_note": "Electric arc has intense and highly characteristic visual emission across the ultraviolet and visible spectrum.",
+
+  "spectral_bands": ["ultraviolet", "visible_light", "near_infrared"],
+  "primary_spectral_band": "visible_light",
+
+  "color_profile": {
+    "space": "HSV",
+    "dominant_hues": ["blue", "white", "violet"],
+    "saturation": "variable",
+    "value": "extreme",
+    "notes": "Ultraviolet: strong continuum emission. Visible: blue-white plasma column. Near-infrared: thermal radiation from electrodes and plasma."
+  },
+
+  "texture_descriptor": {
+    "uniformity": "non-uniform",
+    "gradient_type": "axial",
+    "gradient_direction": "core_to_periphery"
+  },
+
+  "shape_descriptor": {
+    "form": "columnar_channel",
+    "stability": "dynamic"
+  },
+
+  "motion_descriptor": {
+    "motion_present": true,
+    "motion_type": "turbulent_flickering"
+  },
+
+  "prototype_image_present": false,
+  "prototype_image_format": null,
+  "prototype_image_file": null
+}
