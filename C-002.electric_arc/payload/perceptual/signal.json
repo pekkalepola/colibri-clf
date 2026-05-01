@@ -1,0 +1,32 @@
+{
+  "modality": "signal",
+  "applicability": "very_high",
+  "applicability_note": "Electric arc has primary signal character in the electrical and thermal domains.",
+
+  "signal_domains": [
+    {
+      "domain": "electric_current",
+      "unit": "A",
+      "morphology": "abrupt_spike_or_sustained_elevated",
+      "temporal_scale": "microseconds_to_sustained",
+      "characteristic_pattern": "sharp current rise with sustained conduction"
+    },
+    {
+      "domain": "voltage",
+      "unit": "V",
+      "morphology": "sudden_collapse_to_low_arc_voltage",
+      "temporal_scale": "microseconds_to_sustained",
+      "characteristic_pattern": "voltage collapse coincident with current rise"
+    },
+    {
+      "domain": "temperature",
+      "unit": "K",
+      "morphology": "extreme_localized_spike",
+      "temporal_scale": "milliseconds",
+      "characteristic_pattern": "extreme localized temperature in plasma column"
+    }
+  ],
+
+  "stationarity": "non-stationary",
+  "periodicity": "none"
+}

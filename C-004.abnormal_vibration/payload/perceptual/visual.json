@@ -1,0 +1,24 @@
+{
+  "modality": "visual",
+  "applicability": "medium",
+  "applicability_note": "Abnormal vibration has visual character at amplitudes sufficient to produce observable displacement.",
+
+  "spectral_bands": ["visible_light"],
+  "primary_spectral_band": "visible_light",
+
+  "color_profile": null,
+
+  "texture_descriptor": null,
+
+  "shape_descriptor": null,
+
+  "motion_descriptor": {
+    "motion_present": true,
+    "motion_type": "oscillatory_displacement",
+    "notes": "Visible as periodic or irregular positional displacement of the system or its components. High-frequency oscillation appears as blurred edges or loss of geometric sharpness."
+  },
+
+  "prototype_image_present": false,
+  "prototype_image_format": null,
+  "prototype_image_file": null
+}

@@ -1,0 +1,33 @@
+{
+  "clf_version":         "0.9",
+  "concept_id":          "C-002.electric_arc",
+  "version":             "1.0.0",
+  "issued_at":           "2026-05-01T00:00:00Z",
+  "issuer_id":           "COLIBRI_DEMO",
+
+  "concept_kind":        "phenomenon",
+  "maturity":            "draft",
+
+  "summary": "A self-sustaining electrical discharge forming a luminous plasma channel between two points, characterized by intense light, extreme heat, and broadband electromagnetic emission.",
+
+  "modalities_present": [
+    "linguistic",
+    "perceptual.visual",
+    "perceptual.acoustic",
+    "perceptual.signal",
+    "perceptual.chemical",
+    "perceptual.electromagnetic"
+  ],
+
+  "payload_hash_tree": {
+    "taxonomy.json":                                  "sha256-<hash>",
+    "payload/definition/canonical.txt":               "sha256-<hash>",
+    "payload/perceptual/visual.json":                 "sha256-<hash>",
+    "payload/perceptual/acoustic.json":               "sha256-<hash>",
+    "payload/perceptual/signal.json":                 "sha256-<hash>",
+    "payload/perceptual/chemical.json":               "sha256-<hash>",
+    "payload/perceptual/electromagnetic.json":        "sha256-<hash>"
+  },
+
+  "container_hash": "sha256-<merkle root of all payload hashes>"
+}

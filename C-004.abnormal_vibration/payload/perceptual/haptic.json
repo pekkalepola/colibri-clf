@@ -1,0 +1,20 @@
+{
+  "modality": "haptic",
+  "applicability": "high",
+
+  "surface_thermal": {
+    "character": "neutral"
+  },
+
+  "surface_texture": {
+    "change_present": false,
+    "character": "unchanged"
+  },
+
+  "vibration_component": {
+    "present": true,
+    "character": "perceivable_shaking_or_trembling",
+    "frequency_class": "infrasonic_to_audible",
+    "amplitude_class": "elevated"
+  }
+}

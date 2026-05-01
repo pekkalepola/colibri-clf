@@ -1,0 +1,33 @@
+{
+  "modality": "acoustic",
+  "applicability": "very_high",
+  "applicability_note": "Electric arc has a highly distinctive acoustic character across a wide frequency range.",
+
+  "frequency_range_hz": {
+    "low": 20,
+    "high": 20000,
+    "peak_region": "broadband"
+  },
+
+  "temporal_pattern": {
+    "type": "continuous_with_bursts",
+    "duration_class": "milliseconds_to_sustained",
+    "onset": "abrupt"
+  },
+
+  "amplitude_envelope": {
+    "attack": "instantaneous",
+    "decay": "variable",
+    "sustain": "high",
+    "release": "abrupt"
+  },
+
+  "harmonic_structure": {
+    "type": "broadband_noise",
+    "fundamental_present": false
+  },
+
+  "prototype_waveform_present": false,
+  "prototype_waveform_format": null,
+  "prototype_waveform_file": null
+}

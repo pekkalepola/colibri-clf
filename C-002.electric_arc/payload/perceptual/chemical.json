@@ -1,0 +1,27 @@
+{
+  "modality": "chemical",
+  "applicability": "high",
+  "applicability_note": "Chemical character includes byproducts characteristic of high-energy electrical discharge in atmospheric media.",
+
+  "byproducts": [
+    {
+      "category": "ozone",
+      "description": "O3 characteristic of high-energy electrical discharge in oxygen-containing atmosphere."
+    },
+    {
+      "category": "nitrogen_oxides",
+      "description": "NOx species characteristic of high-temperature plasma in nitrogen-containing atmosphere."
+    },
+    {
+      "category": "electrode_vapor",
+      "description": "Metal or carbon vapor characteristic of electrode material at arc contact points."
+    }
+  ],
+
+  "olfactory_character": {
+    "present": "high",
+    "character": "sharp, pungent, chlorine-like"
+  },
+
+  "spectral_signature": null
+}

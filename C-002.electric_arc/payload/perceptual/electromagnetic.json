@@ -1,0 +1,15 @@
+{
+  "modality": "electromagnetic",
+  "applicability": "very_high",
+
+  "primary_spectral_region": "visible_and_ultraviolet",
+  "wavelength_range_um": {"low": 0.1, "high": 0.7},
+
+  "emission_character": "broadband_continuum_with_line_emission",
+
+  "secondary_spectral_regions": ["near_infrared", "radiofrequency"],
+  "secondary_notes": "Near-infrared: thermal radiation from plasma column and electrodes. Radiofrequency: broadband burst emission.",
+
+  "rf_signature": "broadband_burst",
+  "polarization": "unpolarized"
+}

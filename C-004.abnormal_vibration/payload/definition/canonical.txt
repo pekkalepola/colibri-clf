@@ -1,0 +1,22 @@
+Concept: C-004.abnormal_vibration
+Kind: phenomenon
+
+Definition:
+Abnormal vibration is a mechanical phenomenon in which a system or component
+exhibits oscillatory motion of unusual character. It is characterized by
+elevated vibration amplitude, irregular or atypical spectral content, or
+structural resonances not present during expected operation. The phenomenon
+is perceivable as shaking, knocking, or trembling through direct contact,
+as audible sound, and as visible oscillatory displacement of the system.
+
+This concept does NOT define:
+- Amplitude thresholds or frequency values that constitute abnormality
+- The source or origin of the vibration (imbalance, misalignment, bearing fault, etc.)
+- Severity classification or remaining useful life
+- Detection methods or algorithms
+
+Semantic scope:
+Applicable to mechanical systems in operation, including rotating machinery,
+reciprocating machines, structures under dynamic load, and fluid-mechanical
+systems. The phenomenon is defined by the character of the oscillatory motion,
+not by its origin.

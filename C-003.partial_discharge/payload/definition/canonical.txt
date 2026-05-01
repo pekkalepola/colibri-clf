@@ -1,0 +1,24 @@
+Concept: C-003.partial_discharge
+Kind: phenomenon
+
+Definition:
+A partial discharge is a localized electrical discharge within or on the surface
+of an insulating medium. It is characterized by repetitive, sub-microsecond
+current pulses confined to a region that does not completely bridge the gap
+between conductors. The discharge is accompanied by broadband electromagnetic
+pulse emission in the UHF range, ultrasonic acoustic emission, and the formation
+of ozone and other chemical byproducts. The phenomenon occurs in the presence
+of localized electric field intensification within the insulating medium.
+
+This concept does NOT define:
+- Voltage levels or field strengths associated with discharge onset
+- Pulse repetition rate or apparent charge magnitude
+- Insulation material type or geometry
+- Classification into internal, surface, or corona sub-types
+- Severity or remaining lifetime of the insulating medium
+- Detection methods or algorithms
+
+Semantic scope:
+Applicable to solid, liquid, and gaseous insulating media in the presence of
+an electric field. The defining characteristic is the spatial locality of the
+discharge — it does not bridge the full insulation gap.
