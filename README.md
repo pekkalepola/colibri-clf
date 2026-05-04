@@ -64,3 +64,5 @@ Finnish Utility Model No. 13913.
 
 No part of this specification may be used, reproduced, or implemented
 without explicit written permission from the rights holder.
+
+conceptlibrary.eu@gmail.com
